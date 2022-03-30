@@ -11,7 +11,5 @@ def isPalindrome( s):
     else:
         return False
 
-    
-
 inputStr = "A man, a plan, a canal: Panama"
 print(isPalindrome(inputStr))
