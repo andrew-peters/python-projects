@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": ["--line-length", "120"],
+    "python.formatting.provider": "black"
+  }
+}
