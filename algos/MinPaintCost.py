@@ -1,6 +1,3 @@
-
-
-
 def minCost(costs):
     resCost = 0
     for group in costs:
