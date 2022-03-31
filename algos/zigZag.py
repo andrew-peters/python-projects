@@ -5,6 +5,7 @@ def solution(numbers):
     while idx < length - 2:
         if numbers[idx + 1] > numbers[idx] and numbers[idx + 1] > numbers[idx + 2]:
             resArr.append(1)
+            # or resArr[idx] = 1
         elif numbers[idx + 1] < numbers[idx] and numbers[idx + 1] < numbers[idx + 2]:
             resArr.append(1)
         else:
@@ -12,6 +13,6 @@ def solution(numbers):
         idx += 1
     return resArr
 
-    
+
 nums = [1, 2, 1, 3, 1, 2, 3, 2, 3, 1]
 print(solution(nums))

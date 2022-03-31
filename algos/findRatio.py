@@ -3,7 +3,6 @@
 # where b[i] = true if there exists an integer x, such that a[i] = (i + 1) * x
 # and l ≤ x ≤ r. Otherwise, b[i] should be set to false.
 
-
 def solution(arr, left, right):
     resArray = []
 
