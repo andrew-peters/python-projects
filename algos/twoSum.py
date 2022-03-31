@@ -1,4 +1,4 @@
-def twoSum(self, nums: List[int], target: int) -> List[int]:
+def twoSum(nums, target):
     compliments = {}
 
     for i in range(len(nums)):
